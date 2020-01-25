@@ -1,4 +1,4 @@
-//This is an example code for NavigationDrawer//
+//This is an example code for Navigation Drawer with Custom Side bar//
 import React, { Component } from 'react';
 //import react in our code.
 import { StyleSheet, View, Text } from 'react-native';
@@ -9,7 +9,7 @@ export default class Screen1 extends Component {
   render() {
     return (
       <View style={styles.MainContainer}>
-        <Text style={{ fontSize: 23 }}> Screen 1 </Text>
+        <Text style={{ fontSize: 23 }}> Screen {global.currentScreenIndex + 1} </Text>
       </View>
     );
   }
