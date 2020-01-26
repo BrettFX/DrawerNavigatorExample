@@ -35,7 +35,9 @@ target 'DrawerNavigatorExample' do
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
 
-  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
+
+
 
   target 'DrawerNavigatorExampleTests' do
     inherit! :search_paths
